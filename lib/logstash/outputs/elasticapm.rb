@@ -6,7 +6,7 @@ require "json"
 require "jsonpath"
 require "base64"
 
-# An elasticapm output that does nothing.
+# An elasticapm output.
 class LogStash::Outputs::Elasticapm < LogStash::Outputs::Base
   config_name "elasticapm"
 
